@@ -23,17 +23,19 @@
                                         <rect key="frame" x="25" y="254" width="343.33333333333331" height="251.33333333333337"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am Rich" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dp5-Q6-cUN">
-                                        <rect key="frame" x="119" y="355.66666666666669" width="155" height="48"/>
+                                        <rect key="frame" x="119" y="190" width="155" height="48"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstItem="qsE-nV-7OJ" firstAttribute="top" secondItem="dp5-Q6-cUN" secondAttribute="bottom" constant="16" id="1UB-t7-VSQ"/>
+                                    <constraint firstItem="dp5-Q6-cUN" firstAttribute="leading" secondItem="cnZ-vO-OCo" secondAttribute="leading" constant="119" id="C7z-EA-Ujd"/>
                                     <constraint firstItem="qsE-nV-7OJ" firstAttribute="centerY" secondItem="cnZ-vO-OCo" secondAttribute="centerY" id="Do4-LA-SaU"/>
-                                    <constraint firstItem="dp5-Q6-cUN" firstAttribute="centerX" secondItem="cnZ-vO-OCo" secondAttribute="centerX" id="FeM-vp-rdD"/>
                                     <constraint firstItem="qsE-nV-7OJ" firstAttribute="centerX" secondItem="cnZ-vO-OCo" secondAttribute="centerX" id="agP-kA-h3P"/>
-                                    <constraint firstItem="dp5-Q6-cUN" firstAttribute="centerY" secondItem="cnZ-vO-OCo" secondAttribute="centerY" id="jkQ-4t-yA0"/>
+                                    <constraint firstAttribute="trailing" secondItem="dp5-Q6-cUN" secondAttribute="trailing" constant="119" id="e8F-Nv-MrS"/>
+                                    <constraint firstItem="dp5-Q6-cUN" firstAttribute="top" secondItem="cnZ-vO-OCo" secondAttribute="top" constant="190" id="yxe-1y-ATL"/>
                                 </constraints>
                             </view>
                         </subviews>
